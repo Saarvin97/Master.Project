@@ -1,4 +1,4 @@
-# Master.Project
+# Title : Comparison Between Lingusitic and Machine Learning models in Fake News Detection
 
 This project focuses on comparison of linguistic and machine learning model in fake news detection.The project duration was 5 months.Firstly, the data collection is separated in to 2 steps, one for collection of labelled data from various sources which includes Kaggle, articles and scraping from PolitiFact website. The seccond part is the data collection of Reddit data using Reddit API(PRAW). However, the reddit data would bnot have prelabelled data and the collection data contains only text. After collecting the data, data preprocessing for the labelled data is done. For data preprocesssing of text data, NLP is exeuted where NLTK library is used to lemmatize,stemming, removing stop words, punctutations, capital and lower case letters, tagging using part of speech,tokenizing,spell check and also removing URL. The cleaned data is stored in a separate data frame, lets say DF1.
 
